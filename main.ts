@@ -7,6 +7,9 @@ serial.onDataReceived(serial.delimiters(Delimiters.NewLine), function () {
 function 可爱 () {
 	
 }
+input.onButtonPressed(Button.A, function () {
+    basic.showString(order)
+})
 function 后退 () {
 	
 }
